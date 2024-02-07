@@ -25,3 +25,9 @@
     background-color: #04AA6D;
     color: white;
   }
+
+  /* Make the form submission text box larger */
+  .form-text {
+    min-height: 200px;
+    min-width: 500px;
+  }
