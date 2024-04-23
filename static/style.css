@@ -1,241 +1,225 @@
-/* Style the Body */
-body {
-  background: #0E0A1F;
+body
+{
+	background:#0E0A1F;
 }
 
-.logo {
-    background-color: #150f2f;
-    position: fixed;
-    padding-left: 50px;
-    width: 300px;
-    height: 75px;
-    border-bottom: 1px solid #333333;
+div.content
+{
+	color:#ddd;
+	margin-left:300px;
+	padding:100px 40px;
 }
 
-/* Line up the home content */
-.home-content {
-    padding: 100px 16px;
-    height: 500px;
+table,th,td
+{
+	border:1px solid #333;
 }
 
-/* Adjust font size and color */
-.home-text {
-  font-size: 24px;
-  color: #dddddd;
-  width: 100%;
+th
+{
+	padding:0 50px;
 }
 
-/* Add a dark background color to the top navigation */
-.topnav {
-    background-color: #150f2f;
-    margin-left: 300px;
-    overflow: hidden;
-    position: fixed;
-    height: 75px;
-    width: 100%;
-    border-bottom: 1px solid #333333;
-  }
-  
-/* Style the links inside the navigation bar */
- .topnav a {
-    float: left;
-    color: #999;
-    text-align: center;
-    padding: 22px 40px;
-    text-decoration: none;
-    font-size: 24px;
-    font-family: arial;
-}
- 
- /* Change the color of links on hover */
- .topnav a:hover:not(.active) {
-  color: #f9eeff;
-  border-color: #453a74;
-  border-top-style: solid;
-  border-radius: 10px;
- }
- 
- /* Add a color to the active/current link */
- .topnav a.active {
-    font-family: arial;
-    font-weight: bold;
-    color: #f9eeff;
-    border-color: #2b9fca;
-    border-radius: 10px;
-    border-bottom-style: solid;
- }
-
- /* Make the form submission text box larger */
- .form-text {
-   min-height: 100px;
-   width: 100%;
-   max-width: 450px;
- }
-
-  /* The side navigation menu */
-.sidebar {
-  background-color: #0E0A1F;
-  margin-top: 76px;
-  width: 300px;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-  text-align: center;
-  border-right: 1px solid #333333;
+.content-container
+{
+	margin:0 auto;
+	text-align:center;
+	width:100%;
 }
 
-/* Sidebar links */
-.sidebar a {
-  background-color: #150f2f;
-  display: block;
-  color: #999;
-  padding: 10px;
-  margin-top: 25px;
-  margin-left: 50px;
-  text-decoration: none;
-  font-family: arial;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 10px;
-  border-color: #150f2f;
-  border-bottom-style: solid;
-  width: 200px;
+.feedback-content
+{
+	background-color:#150f2f;
+	border-radius:10px;
+	font-family:arial;
+	font-weight:700;
+	margin-left:300px;
+	padding:25px;
+	text-align:left;
+	width:400px;
 }
 
-/* Active/current link */
-.sidebar a.active {
-  background-color: #150f2f;
-  color: #f9eeff;
-  border-color: #2b9fca;
-  border-radius: 10px;
-  border-bottom-style: solid;
+.form-text
+{
+	max-width:450px;
+	min-height:100px;
+	width:100%;
 }
 
-/* Links on mouse-over */
-.sidebar a:hover:not(.active) {
-  border-color: #453a74;
-  border-bottom-style: solid;
-  color: #f9eeff;
+.home-buttons a
+{
+	background-color:#150f2f;
+	border-bottom-style:solid;
+	border-color:#150f2f;
+	border-radius:10px;
+	color:#999;
+	font-family:arial;
+	font-weight:700;
+	margin:25px;
+	padding:25px;
+	text-align:center;
+	text-decoration:none;
 }
 
-/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-div.content {
-  color: #dddddd;
-  padding: 100px 40px;
-  margin-left: 300px;
+.home-buttons
+{
+	margin:0 auto;
+	text-align:center;
+	width:50%;
 }
 
-/* Text on the Home Page. This will affect everything under the top menu and above the buttons */
-.home-text {
-  padding-bottom: 200px;
+.home-content
+{
+	height:500px;
+	padding:100px 16px;
 }
 
-/* center the home text content */
-.content-container {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
+.home-text
+{
+	color:#ddd;
+	font-size:24px;
+	padding-bottom:200px;
+	width:100%;
 }
 
-/* Center the homescreen button div */
-.home-buttons {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
+.logo
+{
+	background-color:#150f2f;
+	border-bottom:1px solid #333;
+	height:75px;
+	padding-left:50px;
+	position:fixed;
+	width:300px;
 }
 
-/* Feedback Text/Content */
-.feedback-content {
-  margin-left: 300px;
-  background-color: #150f2f;
-  width: 400px;
-  text-align: left;
-  border-radius: 10px;
-  padding: 25px;
-  font-family: arial;
-  font-weight: bold;
+.sidebar a
+{
+	background-color:#150f2f;
+	border-bottom-style:solid;
+	border-color:#150f2f;
+	border-radius:10px;
+	color:#999;
+	display:block;
+	font-family:arial;
+	font-weight:700;
+	margin-left:50px;
+	margin-top:25px;
+	padding:10px;
+	text-align:center;
+	text-decoration:none;
+	width:200px;
 }
 
-/* Adding style to tables */
-table, th, td {
-  border:1px solid #333;
+.sidebar a.active
+{
+	background-color:#150f2f;
+	border-bottom-style:solid;
+	border-color:#2b9fca;
+	border-radius:10px;
+	color:#f9eeff;
 }
 
-/* Add some padding to just the TH*/
-th {
-  padding: 0px 50px;
+.sidebar
+{
+	background-color:#0E0A1F;
+	border-right:1px solid #333;
+	height:100%;
+	margin-top:76px;
+	overflow:auto;
+	position:fixed;
+	text-align:center;
+	width:300px;
 }
 
-/* Give the queries table some style, dimensions and font size */
-.styled-table {
-  border-collapse: collapse;
-  margin: 25px 0;
-  font-size: 0.9em;
-  font-family: sans-serif;
-  min-width: 400px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  width: 100%
+.styled-table tbody tr
+{
+	background-color:#150f2f;
+	border-bottom:1px solid #ddd;
+	color:#ddd;
 }
 
-/**/
-.styled-table thead tr {
-  background-color: #85eaff;
-  color: #ffffff;
-  text-align: left;
+.styled-table tbody tr.active-row
+{
+	color:#85eaff;
+	font-weight:700;
 }
 
-/**/
-.styled-table th,
-.styled-table td {
-    padding: 12px 15px;
+.styled-table tbody tr:last-of-type
+{
+	border-bottom:2px solid #2b9fca;
 }
 
-/**/
-.styled-table tbody tr {
-  color: #dddddd;
-  background-color: #150f2f;
-  border-bottom: 1px solid #dddddd;
+.styled-table tbody tr:nth-of-type(even)
+{
+	background-color:#453a74;
 }
 
-/**/
-.styled-table tbody tr:nth-of-type(even) {
-  background-color: #453a74;
+.styled-table th,.styled-table td
+{
+	padding:12px 15px;
 }
 
-/**/
-.styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #2b9fca;
+.styled-table thead tr
+{
+	background-color:#85eaff;
+	color:#fff;
+	text-align:left;
 }
 
-/**/
-.styled-table tbody tr.active-row {
-  font-weight: bold;
-  color: #85eaff;
+.styled-table
+{
+	border-collapse:collapse;
+	box-shadow:0 0 20px rgba(0,0,0,0.15);
+	font-family:sans-serif;
+	font-size:.9em;
+	margin:25px 0;
+	min-width:400px;
+	width:100%;
 }
 
-/* Set the width of the home buttons div */
-.home-buttons {
-  width: 100%;
+.topnav a
+{
+	color:#999;
+	float:left;
+	font-family:arial;
+	font-size:24px;
+	padding:22px 40px;
+	text-align:center;
+	text-decoration:none;
 }
 
-/* Homepage links */
-.home-buttons a {
-  background-color: #150f2f;
-  color: #999;
-  padding: 25px;
-  margin: 25px;
-  text-decoration: none;
-  font-family: arial;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 10px;
-  border-color: #150f2f;
-  border-bottom-style: solid;
+.topnav a.active
+{
+	border-bottom-style:solid;
+	border-color:#2b9fca;
+	border-radius:10px;
+	color:#f9eeff;
+	font-family:arial;
+	font-weight:700;
 }
 
-/* Links on mouse-over */
-.home-buttons a:hover:not(.active) {
-  border-color: #453a74;
-  border-bottom-style: solid;
-  color: #f9eeff;
+.topnav a:hover:not(.active)
+{
+	border-color:#453a74;
+	border-radius:10px;
+	border-top-style:solid;
+	color:#f9eeff;
+}
+
+.topnav
+{
+	background-color:#150f2f;
+	border-bottom:1px solid #333;
+	height:75px;
+	margin-left:300px;
+	overflow:hidden;
+	position:fixed;
+	width:100%;
+}
+
+.home-buttons a:hover:not(.active),.sidebar a:hover:not(.active)
+{
+	border-bottom-style:solid;
+	border-color:#453a74;
+	color:#f9eeff;
 }
