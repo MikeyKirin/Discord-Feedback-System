@@ -16,8 +16,6 @@ For this project you'll need to install the following using pip install.
 4) datatime
  - Import: datetime
 
-Additionally we 
-
 WEBSITE
 This project does not have a website.
 
