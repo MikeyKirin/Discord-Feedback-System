@@ -3,36 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yet Another Feedback System - Discord Edition!</title>
+    <title>Welcome To YAFS!</title>
     <link rel="stylesheet" href="../static/style.css">
 </head>
-<div class="logo"><img src="../static/yafslogo.png"></div>
-<div class="topnav" id="topnav">
-    <a href="{{ url_for('index')}}" class="active">Home</a>
-    <a href="{{ url_for('feedback')}}">Feedback</a>
-    <a href="{{ url_for('admin')}}">Admin Panel</a>
-</div>
 <body>
     <div class="home-content">
-        <div>
-            <div class="content-container">
-                <div class="home-text">
-                    Welcome to the [INSERTNAMEHERE] Feedback System!
-                    <br>
-                    Are you leaving feedback, or accessing the admin panel?
-                </div>
-                    <br>
-                    <br>
-                <div class="home-buttons">
-                    <a href="{{ url_for('feedback')}}">
-                        Submit Some Feedback
-                    </a>
-                    <a href="{{ url_for('admin')}}">
-                        Go To The Admin Panel
-                    </a>
-                </div>
-            </div>
+        <br>
+        <h1>Welcome to the Home page of Yet Another Feedback System (YAFS)!</h1>
+        <br>
+        <br>
+        <div class="home-buttons">
+        <a href="{{ url_for('login')}}">To get started, click here to login with Discord!</a>
         </div>
-    </div>
+      </div>
 </body>
 </html>

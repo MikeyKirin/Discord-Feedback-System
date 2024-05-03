@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success!</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<div class="logo"><img src="../static/yafslogo.png"></div>
+<div class="topnav" id="topnav">
+    <a href="{{ url_for('home')}}" class="active">Home</a>
+    <a href="{{ url_for('feedback')}}">Feedback</a>
+    <a href="{{ url_for('admin')}}">Admin Panel</a>
+</div>
+<body>
+    <div class="home-content">
+        <div>
+            <div class="content-container">
+                <div class="home-text">
+                    <h1>Thanks for the feedback <b>{{session['username']}}</b>!</h1>
+                    <br>
+                    <br>
+                    To go back to the dashboard, click the link at the top of the page.
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

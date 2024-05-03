@@ -1,20 +1,41 @@
+/* Give the body a background color */
 body
 {
-	background:#0E0A1F;
+	background:#222255;
+	margin: 0px;
 }
 
-div.content
+/* Color the text of the main content div and align it on the page */
+div.admin-content
 {
-	color:#ddd;
-	margin-left:300px;
+	color:#F2F3F3;
+	margin-left: 300px;
 	padding:100px 40px;
 }
 
-table,th,td
+/* Color the text of the main content div and align it on the page */
+div.content
 {
-	border:1px solid #333;
+	color:#F2F3F3;
+	margin: 0px auto;
+	padding:100px 40px;
 }
 
+/* Color the text of the home content div and center it */
+div.home-content
+{
+	color:#F2F3F3;
+	text-align: center;
+	padding:100px 40px;
+}
+
+/* Style the Queries table with a thin line */
+table,th,td
+{
+	border:1px solid #555;
+}
+
+/* Give some extra room in the table th */
 th
 {
 	padding:0 50px;
@@ -27,16 +48,17 @@ th
 	width:100%;
 }
 
+/* Color the background, align it, and make the width fixed */
 .feedback-content
 {
-	background-color:#150f2f;
+	background-color:#131331;
+	margin: 0px auto;
 	border-radius:10px;
 	font-family:arial;
 	font-weight:700;
-	margin-left:300px;
 	padding:25px;
-	text-align:left;
-	width:400px;
+	text-align:center;
+	width:800px;
 }
 
 .form-text
@@ -46,13 +68,14 @@ th
 	width:100%;
 }
 
+/* Style the buttons after Discord login */
 .home-buttons a
 {
-	background-color:#150f2f;
+	background-color:#131331;
 	border-bottom-style:solid;
-	border-color:#150f2f;
+	border-color:#4477AA;
 	border-radius:10px;
-	color:#999;
+	color:#BBB;
 	font-family:arial;
 	font-weight:700;
 	margin:25px;
@@ -76,7 +99,7 @@ th
 
 .home-text
 {
-	color:#ddd;
+	color:#F2F3F3;
 	font-size:24px;
 	padding-bottom:200px;
 	width:100%;
@@ -84,47 +107,55 @@ th
 
 .logo
 {
-	background-color:#150f2f;
-	border-bottom:1px solid #333;
+	background-color:#131331;
+	border-bottom:1px solid #999999;
 	height:75px;
 	padding-left:50px;
 	position:fixed;
 	width:300px;
 }
 
+/* Style the sidebar */
 .sidebar a
 {
-	background-color:#150f2f;
+	background-color:#222255;
 	border-bottom-style:solid;
-	border-color:#150f2f;
-	border-radius:10px;
-	color:#999;
+	border-color:#222255;
+	border-radius: 10px;
+	color:#BBB;
 	display:block;
 	font-family:arial;
-	font-weight:700;
-	margin-left:50px;
-	margin-top:25px;
-	padding:10px;
+	font-weight:bold;
+	font-size: 18px;
+	padding-top: 10px;
+	margin-top: 10px;
 	text-align:center;
 	text-decoration:none;
-	width:200px;
+	margin: 0px auto;
+	width:250px;
+	height:30px;
 }
 
 .sidebar a.active
 {
-	background-color:#150f2f;
+	background-color:#222255;
 	border-bottom-style:solid;
-	border-color:#2b9fca;
+	border-color:#CCEEFF;
 	border-radius:10px;
-	color:#f9eeff;
+	color:#F2F3F3;
 }
 
 .sidebar
 {
-	background-color:#0E0A1F;
-	border-right:1px solid #333;
+	background-color:#131331;
+	color: #F2F3F3;
+	font-family:arial;
+	font-weight:bold;
+	font-size:26px;
+	border-right:1px solid #555;
 	height:100%;
 	margin-top:76px;
+	padding-top: 30px;
 	overflow:auto;
 	position:fixed;
 	text-align:center;
@@ -133,25 +164,25 @@ th
 
 .styled-table tbody tr
 {
-	background-color:#150f2f;
-	border-bottom:1px solid #ddd;
-	color:#ddd;
+	background-color:#222255;
+	border-bottom:1px solid #F2F3F3;
+	color:#F2F3F3;
 }
 
 .styled-table tbody tr.active-row
 {
-	color:#85eaff;
+	color:#CCEEFF;
 	font-weight:700;
 }
 
 .styled-table tbody tr:last-of-type
 {
-	border-bottom:2px solid #2b9fca;
+	border-bottom:2px solid #CCEEFF;
 }
 
 .styled-table tbody tr:nth-of-type(even)
 {
-	background-color:#453a74;
+	background-color:#131331;
 }
 
 .styled-table th,.styled-table td
@@ -159,17 +190,18 @@ th
 	padding:12px 15px;
 }
 
+/* Start styling the table */
 .styled-table thead tr
 {
-	background-color:#85eaff;
-	color:#fff;
+	background-color:#CCEEFF;
+	color:#F2F3F3;
 	text-align:left;
 }
 
 .styled-table
 {
 	border-collapse:collapse;
-	box-shadow:0 0 20px rgba(0,0,0,0.15);
+	box-shadow:0 0 20px #000026;
 	font-family:sans-serif;
 	font-size:.9em;
 	margin:25px 0;
@@ -177,9 +209,12 @@ th
 	width:100%;
 }
 
+/* Start styling the top navigation section */
 .topnav a
 {
-	color:#999;
+	color:#999999;
+	border-color:#4477AA;
+	border-bottom-style:solid;
 	float:left;
 	font-family:arial;
 	font-size:24px;
@@ -191,25 +226,24 @@ th
 .topnav a.active
 {
 	border-bottom-style:solid;
-	border-color:#2b9fca;
-	border-radius:10px;
-	color:#f9eeff;
+	border-color:#CCEEFF;
+	color:#F2F3F3;
 	font-family:arial;
 	font-weight:700;
 }
 
 .topnav a:hover:not(.active)
 {
-	border-color:#453a74;
-	border-radius:10px;
-	border-top-style:solid;
-	color:#f9eeff;
+	background-color: #222255;
+	border-color:#F2F3F3;
+	border-bottom-style:solid;
+	color:#F2F3F3;
 }
 
 .topnav
 {
-	background-color:#150f2f;
-	border-bottom:1px solid #333;
+	background-color:#131331;
+	border-bottom:1px solid #999999;
 	height:75px;
 	margin-left:300px;
 	overflow:hidden;
@@ -217,9 +251,11 @@ th
 	width:100%;
 }
 
-.home-buttons a:hover:not(.active),.sidebar a:hover:not(.active)
+.home-buttons a:hover:not(.active),
+
+.sidebar a:hover:not(.active)
 {
 	border-bottom-style:solid;
-	border-color:#453a74;
-	color:#f9eeff;
+	border-color:#cceeff;
+	color:#F2F3F3;
 }

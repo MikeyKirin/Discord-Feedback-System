@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Panel</title>
+    <title>Queries</title>
     <link rel="stylesheet" href="../static/style.css">
 </head>
     <div>
         <div class="logo"><img src="../static/yafslogo.png"></div>
             <div class="topnav" id="topnav">
-                <a href="{{ url_for('index')}}">Home</a>
+                <a href="{{ url_for('home')}}" class="active">Home</a>
                 <a href="{{ url_for('feedback')}}">Feedback</a>
                 <a href="{{ url_for('admin')}}">Admin Panel</a>
             </div>
             <div class="sidebar">
-                <a href="{{ url_for('queries')}}" class="active">Queries</a>
-                <a href="{{ url_for('search')}}">User Lookup</a>
+                Admin Panel
+                <br>
+                <br>
+                <a href="{{ url_for('queries')}}">Queries</a>
             </div>
     </div>
 <body>
-    <div class="content">
+    <div class="admin-content">
         <table class="styled-table">
             <tr>
                 <th>UserID</th>

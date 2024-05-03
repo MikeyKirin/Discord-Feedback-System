@@ -9,17 +9,19 @@
     <div>
         <div class="logo"><img src="../static/yafslogo.png"></div>
             <div class="topnav" id="topnav">
-                <a href="{{ url_for('index')}}">Home</a>
+                <a href="{{ url_for('home')}}" class="active">Home</a>
                 <a href="{{ url_for('feedback')}}">Feedback</a>
                 <a href="{{ url_for('admin')}}"  class="active">Admin Panel</a>
             </div>
             <div class="sidebar">
+                Admin Panel
+                <br>
+                <br>
                 <a href="{{ url_for('queries')}}">Queries</a>
-                <a href="{{ url_for('search')}}">User Lookup</a>
             </div>
     </div>
 <body>
-    <div class="content">
+    <div class="admin-content">
         <br>
             Click a button to the left to access that section of the admin panel.
       </div>
