@@ -44,4 +44,4 @@ There are two main categories on the website: Submit Feedback and Admin Panel
 ## Contact
 Michael Kirkpatrick - [GitHub](LINK) - mikeykirin101@gmail.com
 
-Project Link:
+Project Link: [CLICK HERE](https://github.com/MikeyKirin/Discord-Feedback-System/)
