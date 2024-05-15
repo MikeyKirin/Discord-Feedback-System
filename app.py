@@ -21,7 +21,7 @@ now = datetime.now()
 
 # Connect to our database.
 def db_connect():
-    conn = psycopg2.connect(host=host, database=database, user=user, password=password)
+    conn = psycopg2.connect(host=HOST, database=DATABASE, user=USER, password=PASSWORD)
     return conn
 
 # Display the index page where you login.
