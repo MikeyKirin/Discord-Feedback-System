@@ -6,7 +6,7 @@ API_ENDPOINT='https://discord.com/api/v10'
 TOKEN=os.environ.get('TOKEN')
 CLIENT_ID=os.environ.get('CLIENT_ID')
 CLIENT_SECRET=os.environ.get('CLIENT_SECRET')
-REDIRECT_URI="http://localhost:5000/oauth/discord"
+REDIRECT_URI="http://0.0.0.0:5000/oauth/discord"
 OAUTH_URL=os.environ.get('OAUTH_URL')
 
 # Write out database configurations
