@@ -1,18 +1,19 @@
 import requests
+import os
 
 # Write out Discord configurations.
-API_ENDPOINT = 'https://discord.com/api/v10'
-TOKEN="[YOUR BOT TOKEN HERE]"
-CLIENT_ID="[YOUR BOT CLIENT ID HERE]"
-CLIENT_SECRET="[YOUR BOT CLIENT SECRET HERE]"
+API_ENDPOINT='https://discord.com/api/v10'
+TOKEN=os.environ.get('TOKEN')
+CLIENT_ID=os.environ.get('CLIENT_ID')
+CLIENT_SECRET=os.environ.get('CLIENT_SECRET')
 REDIRECT_URI="http://localhost:5000/oauth/discord"
-OAUTH_URL="[YOUR BOT OAUTH URL HERE]"
+OAUTH_URL=os.environ.get('OAUTH_URL')
 
 # Write out database configurations
-host="postgres://mikey:IHX3xHUDoro6sspcEVUt4Js0tSCnE9QS@dpg-cp1m46uct0pc73d3pd90-a/yafsdb"
+host=os.environ.get('DB_HOST')
 database="yafsdb"
 user="mikey"
-password="IHX3xHUDoro6sspcEVUt4Js0tSCnE9QS"
+password=os.environ.get('DB_PASSWORD')
 
 # Secret Key for sessions
 SECRET_KEY = "SuperSecretKey123"
