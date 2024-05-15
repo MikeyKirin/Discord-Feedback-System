@@ -106,7 +106,6 @@ taskgroup==0.0.0a4
 tomli==2.0.1
 traitlets==5.1.1
 typing_extensions==4.11.0
-ubuntu-pro-client==8001
 ufoLib2==0.13.1
 ufw==0.36.1
 unattended-upgrades==0.1
