@@ -114,5 +114,5 @@ webencodings==0.5.1
 Werkzeug==3.0.2
 wsproto==1.2.0
 yarl==1.9.4
-Zenora==0.0.3.post1
+zenora==0.0.3.post1
 zipp==1.0.0
