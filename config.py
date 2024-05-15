@@ -11,9 +11,9 @@ OAUTH_URL=os.environ.get('OAUTH_URL')
 
 # Write out database configurations
 HOST=os.environ.get('DB_HOST')
-database="yafsdb"
-user="mikey"
-password=os.environ.get('DB_PASSWORD')
+DATABASE="yafsdb"
+USER="mikey"
+PASSWORD=os.environ.get('DB_PASSWORD')
 
 # Secret Key for sessions
 SECRET_KEY = "SuperSecretKey123"
