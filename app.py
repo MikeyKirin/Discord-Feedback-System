@@ -3,6 +3,7 @@ from flask import Flask,render_template,request, redirect, session
 from datetime import datetime
 from zenora import APIClient
 import psycopg2
+import os
 
 # We've loaded all of our modules. Additionally we've put all of our passwords and other sensitive data
 # into config.py then imported it for security. 
