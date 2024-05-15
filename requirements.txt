@@ -26,8 +26,6 @@ discord-ext-ipc==2.1.1
 discord-ui==5.1.6
 discord.py==2.3.2
 distlib==0.3.8
-distro==1.7.0
-distro-info==1.1+ubuntu0.2
 exceptiongroup==1.2.1
 filelock==3.13.3
 Flask==3.0.3
