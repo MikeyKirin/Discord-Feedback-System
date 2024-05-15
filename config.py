@@ -10,7 +10,7 @@ REDIRECT_URI="https://discord-feedback-system.onrender.com/oauth/discord"
 OAUTH_URL=os.environ.get('OAUTH_URL')
 
 # Write out database configurations
-host=os.environ.get('DB_HOST')
+HOST=os.environ.get('DB_HOST')
 database="yafsdb"
 user="mikey"
 password=os.environ.get('DB_PASSWORD')
