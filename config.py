@@ -9,11 +9,11 @@ REDIRECT_URI="http://localhost:5000/oauth/discord"
 OAUTH_URL="[YOUR BOT OAUTH URL HERE]"
 
 # Write out database configurations
-host="localhost"
-database="yafsDB"
-user="[YOUR USERNAME HERE]"
-password="[YOUR PASSWORD HERE]"
+host="postgres://mikey:IHX3xHUDoro6sspcEVUt4Js0tSCnE9QS@dpg-cp1m46uct0pc73d3pd90-a/yafsdb"
+database="yafsdb"
+user="mikey"
+password="IHX3xHUDoro6sspcEVUt4Js0tSCnE9QS"
 
 # Secret Key for sessions
-SECRET_KEY = "[YOUR SECRET KEY HERE]"
+SECRET_KEY = "SuperSecretKey123"
 
