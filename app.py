@@ -1,12 +1,27 @@
-from config import *
 from flask import Flask,render_template,request, redirect, session
 from datetime import datetime
 from zenora import APIClient
 import psycopg2
 import os
 
-# We've loaded all of our modules. Additionally we've put all of our passwords and other sensitive data
-# into config.py then imported it for security. 
+# We've loaded all of our modules. Now time to load our secret data from our env file.
+
+# Write out Discord configurations.
+API_ENDPOINT='https://discord.com/api/v10'
+TOKEN=os.environ.get('TOKEN')
+CLIENT_ID=os.environ.get('CLIENT_ID')
+CLIENT_SECRET=os.environ.get('CLIENT_SECRET')
+REDIRECT_URI="https://discord-feedback-system.onrender.com/oauth/discord"
+OAUTH_URL=os.environ.get('OAUTH_URL')
+
+# Write out database configurations
+HOST=os.environ.get('DB_HOST')
+DATABASE="yafsdb"
+USER="mikey"
+PASSWORD=os.environ.get('DB_PASSWORD')
+
+# Secret Key for sessions
+SECRET_KEY = "SuperSecretKey123"
 
 # Create our instance and label our templates folder.
 app = Flask(__name__,template_folder = 'templates')
