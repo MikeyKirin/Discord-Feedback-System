@@ -11,5 +11,6 @@ CREATE TABLE users (
     contact INTEGER,
     email VARCHAR(255),
     feedback_desc VARCHAR(5000),
-    created_at DATE
+    created_at DATE,
+    is_public VARCHAR(255)
 );
