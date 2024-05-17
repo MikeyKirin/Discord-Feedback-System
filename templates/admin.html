@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Panel</title>
     <link rel="stylesheet" href="../static/style.css">
 </head>
-    <div>
-        <div class="logo"><img src="../static/yafslogo.png"></div>
+<body>
+    <div class="topbar" id="topbar">
             <div class="topnav" id="topnav">
                 <a href="{{ url_for('home')}}">Home</a>
                 <a href="{{ url_for('feedback')}}">Feedback</a>
-                <a href="{{ url_for('admin')}}"  class="active">Admin Panel</a>
+                <a href="{{ url_for('admin')}}"  class="active">Admin</a>
             </div>
             <div class="sidebar">
-                Admin Panel
+                Admin
                 <br>
                 <br>
                 <a href="{{ url_for('queries')}}">Queries</a>
             </div>
     </div>
-<body>
     <div class="admin-content">
         <br>
             Click a button to the left to access that section of the admin panel.
