@@ -90,7 +90,7 @@ th
 .home-buttons
 {
 	margin:0 auto;
-	font-size: 14px;
+	font-size: 3vw;
     text-align: center;
     width: 100%;
 }
@@ -231,7 +231,7 @@ th
 	float:left;
 	font-family:arial;
 	font-size:1.5em;
-	padding:1em 15px;
+	padding:1em 10px;
 	text-align:center;
 	text-decoration:none;
 	height:30px;
