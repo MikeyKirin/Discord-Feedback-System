@@ -2,6 +2,7 @@
 body
 {
 	background:#222255;
+	min-width: 320px;
 	margin: 0px;
 }
 
@@ -9,8 +10,11 @@ body
 div.admin-content
 {
 	color:#F2F3F3;
-	margin-left: 300px;
-	padding:100px 40px;
+	padding-top: 100px;
+	padding-left: 50%;
+	width: 50%;
+	min-width: 200px;
+	max-width: 500px;
 }
 
 /* Color the text of the main content div and align it on the page */
@@ -58,14 +62,13 @@ th
 	font-weight:700;
 	padding:25px;
 	text-align:center;
-	width:800px;
+	width: 80%;
 }
 
 .form-text
 {
-	max-width:450px;
+	max-width:45%;
 	min-height:100px;
-	width:100%;
 }
 
 /* Style the buttons after Discord login */
@@ -78,8 +81,8 @@ th
 	color:#BBB;
 	font-family:arial;
 	font-weight:700;
-	margin:25px;
-	padding:25px;
+	margin:1em;
+	padding:1em;
 	text-align:center;
 	text-decoration:none;
 }
@@ -87,8 +90,9 @@ th
 .home-buttons
 {
 	margin:0 auto;
-	text-align:center;
-	width:50%;
+	font-size: 14px;
+    text-align: center;
+    width: 100%;
 }
 
 .home-content
@@ -107,12 +111,21 @@ th
 
 .logo
 {
+	background-image: url('../static/yafslogo.png');
+	background-position: center top;
+	background-size: 60% auto;
+	background-repeat: no-repeat;
 	background-color:#131331;
 	border-bottom:1px solid #999999;
+	margin: 0px auto;
 	height:75px;
 	padding-left:50px;
-	position:fixed;
-	width:300px;
+	position:absolute;
+	text-align:center;
+	padding: 25px;
+	width:30%;
+	min-width: 100px;
+	max-width: 250px;
 }
 
 /* Style the sidebar */
@@ -132,7 +145,8 @@ th
 	text-align:center;
 	text-decoration:none;
 	margin: 0px auto;
-	width:250px;
+	width:25%;
+	min-width: 80px;
 	height:30px;
 }
 
@@ -154,12 +168,13 @@ th
 	font-size:26px;
 	border-right:1px solid #555;
 	height:100%;
-	margin-top:76px;
-	padding-top: 30px;
-	overflow:auto;
-	position:fixed;
+	margin-top:82px;
+	position:absolute;
 	text-align:center;
-	width:300px;
+	padding: 25px;
+	width:30%;
+	min-width: 100px;
+	max-width: 250px;
 }
 
 .styled-table tbody tr
@@ -202,25 +217,24 @@ th
 {
 	border-collapse:collapse;
 	box-shadow:0 0 20px #000026;
-	font-family:sans-serif;
-	font-size:.9em;
-	margin:25px 0;
-	min-width:400px;
-	width:100%;
+	padding-left: 10px;
+	margin: 0px auto;
+	font-size: 1vw;
+	width: 95%;
+	min-width: 200px;
 }
 
 /* Start styling the top navigation section */
 .topnav a
 {
 	color:#999999;
-	border-color:#4477AA;
-	border-bottom-style:solid;
 	float:left;
 	font-family:arial;
-	font-size:24px;
-	padding:22px 40px;
+	font-size:1.5em;
+	padding:1em 30px;
 	text-align:center;
 	text-decoration:none;
+	height:30px;
 }
 
 .topnav a.active
@@ -244,11 +258,12 @@ th
 {
 	background-color:#131331;
 	border-bottom:1px solid #999999;
-	height:75px;
-	margin-left:300px;
 	overflow:hidden;
 	position:fixed;
-	width:100%;
+	margin: 0px auto;
+	min-width: 100px;
+	width: 100%;
+	min-width: 200px;
 }
 
 .home-buttons a:hover:not(.active),
@@ -258,4 +273,11 @@ th
 	border-bottom-style:solid;
 	border-color:#cceeff;
 	color:#F2F3F3;
+}
+
+.queries-content
+{
+	padding-top: 100px;
+	max-width: 1000px;
+	margin: 0px auto;
 }
