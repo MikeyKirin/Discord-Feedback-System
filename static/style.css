@@ -62,7 +62,7 @@ th
 	font-weight:700;
 	padding:25px;
 	text-align:center;
-	width: 100%;
+	width: 80%;
 }
 
 .form-text
@@ -293,4 +293,10 @@ th
 	padding-top: 250px;
 	max-width: 1000px;
 	margin: 0px auto;
+}
+
+.feedback_desc 
+{
+	width: 80%;
+	min-height: 100px;
 }
