@@ -62,7 +62,7 @@ th
 	font-weight:700;
 	padding:25px;
 	text-align:center;
-	width: 80%;
+	width: 50%;
 }
 
 .form-text
@@ -92,7 +92,15 @@ th
 	margin:0 auto;
 	font-size: 3vw;
     text-align: center;
-    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+	.home-buttons
+	{
+		margin:0 auto;
+		font-size: 1vw;
+		text-align: center;
+	}
 }
 
 .home-content
